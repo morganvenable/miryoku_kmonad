@@ -5,5 +5,5 @@ jobs:
   test:
     uses: ./.github/workflows/main.yml
     with: 
-      option: '["MIRYOKU_ALPHAS","QWERTY"]'
+      option: '[MIRYOKU_ALPHAS,QWERTY]'
       mode: '["build"]'
