@@ -1,0 +1,9 @@
+name: 'build_foo'
+on:
+  - workflow_dispatch
+jobs:
+  test:
+    uses: ./.github/workflows/main.yml
+    with: 
+      option: '["MIRYOKU_ALPHAS","QWERTY"]'
+      mode: '["build"]'
